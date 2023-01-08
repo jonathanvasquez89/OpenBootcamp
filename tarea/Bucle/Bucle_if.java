@@ -3,11 +3,13 @@ package tarea.Bucle;
 public class Bucle_if {
 
     public static void main(String[] args) {
-    int numeroIf = 0;
-        if (numeroIf <= 10 ) {
-            System.out.print("Es Positivo " +numeroIf);
+    int numeroIf = 10;
+        if (numeroIf > 0 ) {
+            System.out.print("La variable es Positivo " +numeroIf);
+        } else if (numeroIf < 0) {
+            System.out.print("La variable es Negativo " +numeroIf);
         } else {
-            System.out.print("Es Negativo " +numeroIf);
+            System.out.println("La variable es 0");
         }
     }
 }
